@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Clyne WebDev</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/clyne-logo-removebg-preview.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logoArea">
+        <img
+          src="assets/clyne-logo-removebg-preview.png"
+          alt="Clyne WebDev Logo"
+          class="logo"
+        />
+
+        <h1 class="logoText">Clyne Webdev</h1>
+      </div>
+
+      <input type="checkbox" id="toggleNav" />
+
+      <label
+        for="toggleNav"
+        class="hamburgerBtn cursor-pointer"
+        aria-label="Toggle navigation menu"
+      >
+        <div class="humburgerArea flex-column">
+          <div class="icon-bar"></div>
+
+          <div class="icon-bar"></div>
+
+          <div class="icon-bar"></div>
+        </div>
+      </label>
+
+      <div class="navigationArea">
+        <label for="toggleNav" class="closeBtn cursor-pointer">
+          <div class="closeNav flex-center">
+            <div class="icon-bar"></div>
+
+            <div class="icon-bar"></div>
+          </div>
+        </label>
+
+        <nav class="flex-column">
+          <ul>
+            <li>
+              <a href="index.html" target="_blank" rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li>
+              <a href="projects.html" target="_blank" rel="noopener noreferrer"
+                >Projects</a
+              >
+            </li>
+
+            <li>
+              <a href="blog.html" target="_blank" rel="noopener noreferrer"
+                >Blog</a
+              >
+            </li>
+
+            <li>
+              <a href="contact.html" target="_blank" rel="noopener noreferrer"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="navContact flex-center-column">
+            <p>Contact Clyne WebDev (Randy Clyne) Now</p>
+
+            <button onclick="location.href='tel:+233537086213'">
+              My Contact
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section-margin">
+      <section class="aboutMe flex-center-column">
+        <h2 class="aboutHeaders">About Me</h2>
+
+        <div class="aboutInfoText flex-center-column">
+          <div class="clyne-image">
+            <img
+              src="assets/clyne-image.png"
+              alt="Image of Randy Clyne"
+              class="clyne-image"
+            />
+          </div>
+
+          <div class="clyneInfo flex-center-column">
+            <div class="clyne-aboutText">
+              Hello, I’m Clyne WebDev, an aspiring full-stack developer
+              passionate about building clean, responsive, and user-friendly web
+              applications. I’m currently focused on strengthening my foundation
+              in modern web technologies by building real projects and learning
+              through consistent practice. My goal is to grow into a developer
+              who writes clear, maintainable code and delivers meaningful
+              digital experiences.
+            </div>
+
+            <div class="buttons flex-center">
+              <button>
+                <a href="#coming-soon" target="_blank" rel="noopener noreferrer"
+                  >Download CV</a
+                >
+              </button>
+
+              <button>
+                <a href="#coming-soon" target="_blank" rel="noopener noreferrer"
+                  >View Projects</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="learningPath">
+        <h2 class="aboutHeaders">Skills In Progress</h2>
+
+        <div class="courses">
+          <article class="course">
+            <img src="assets/html-5-svgrepo-com.svg" class="icon" />
+
+            <p>
+              Building semantic, accessible page structures that form the
+              foundation of modern websites.
+            </p>
+          </article>
+
+          <article class="course">
+            <img src="assets/css3-svgrepo-com.svg" class="icon" />
+
+            <p>
+              Creating responsive layouts, reusable components, and clean visual
+              designs using modern CSS techniques.
+            </p>
+          </article>
+
+          <article class="course">
+            <img src="assets/git-svgrepo-com.svg" class="icon" />
+
+            <p>
+              Managing code versions, tracking changes, and collaborating
+              effectively using Git and GitHub.
+            </p>
+          </article>
+
+          <article class="course">
+            <img src="assets/javascript-seeklogo.com.svg" class="icon" />
+
+            <p>
+              Learning core JavaScript concepts to add interactivity and dynamic
+              behavior to web applications.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <h2 class="aboutHeaders">Projects</h2>
+
+        <div class="projects">
+          <p class="coming-soon" id="coming-soon">
+            Projects are currently in development and will be added here soon as
+            I continue building and learning.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2 class="aboutHeaders">Get In Touch</h2>
+
+        <div class="contact-lists">
+          <div class="one-contact">
+            <a
+              href="https://github.com/Clyne-WebDev"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="assets/github-142-svgrepo-com.svg" class="icon"
+            /></a>
+
+            <p>GitHub</p>
+          </div>
+
+          <div class="one-contact">
+            <a
+              href="https://www.linkedin.com/in/randy-osei-b7b0103a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="assets/linkedin-svgrepo-com.svg" class="icon"
+            /></a>
+
+            <p>LinkedIn</p>
+          </div>
+
+          <div class="one-contact">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=clynewebdev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="assets/email-opened-svgrepo-com.svg" class="icon"
+            /></a>
+
+            <p>clynewebdev@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <!-- Brand / Intro -->
+
+        <section class="footer-brand">
+          <div class="brand">
+            <img
+              src="assets/clyne-logo-removebg-preview.png"
+              alt="Clyne WebDev logo"
+            />
+
+            <span>Clyne WebDev</span>
+          </div>
+
+          <p>Building modern web experiences.</p>
+        </section>
+
+        <!-- Links -->
+
+        <section class="footer-links">
+          <div class="link-group">
+            <h4>Pages</h4>
+
+            <a href="index.html" target="_blank" rel="noopener noreferrer"
+              >Home</a
+            >
+
+            <a href="about.html" target="_blank" rel="noopener noreferrer"
+              >About</a
+            >
+
+            <a href="projects.html" target="_blank" rel="noopener noreferrer"
+              >Projects</a
+            >
+
+            <a href="blog.html" target="_blank" rel="noopener noreferrer"
+              >Blog</a
+            >
+
+            <a href="contact.html" target="_blank" rel="noopener noreferrer"
+              >Contact</a
+            >
+          </div>
+
+          <div class="link-group">
+            <h4>Legal</h4>
+
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              >Privacy Policy</a
+            >
+
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              >Terms of Service</a
+            >
+          </div>
+        </section>
+      </div>
+
+      <!-- Bottom bar -->
+
+      <div class="footer-bottom">
+        <span>© 2026 Clyne WebDev. All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+</html>
